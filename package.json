@@ -1,7 +1,7 @@
 {
   "name": "ng-scroll-observe",
   "version": "1.0.0",
-  "description": "angular directive",
+  "description": "angular component",
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/pure-js/ng-scroll-observe#readme",
   "dependencies": {
-    "angular": "^1.5.8"
+    "angular": "^1.6.1"
   }
 }

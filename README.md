@@ -1,2 +1,2 @@
 # ng-scroll-observe
-Angular directive 
+Angular component 

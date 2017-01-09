@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Angular directive</title>
+    <title>Angular component</title>
     <link rel='stylesheet' href='style.css'>
     <script src="../node_modules/angular/angular.min.js"></script>
     <script src="app.js"></script>
@@ -14,7 +14,7 @@
     </div>
 
     <div ng-controller="controller">
-      <div scroll-observe="myAlert()" class="info-box">Alerted</div>
+      <scroll-observe observe="myAlert()" class="info-box">Alerted</scroll-observe>
     </div>
 
     <div class="box_small"></div>
